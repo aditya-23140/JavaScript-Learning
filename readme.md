@@ -34,7 +34,7 @@ This repository contains various HTML, CSS, and JavaScript projects. Below is an
 
 7. **telephoneValidator**: Validates telephone numbers based on specific formatting rules.
 
-8. **TicTacToe**: A classic Tic Tac Toe game with a simple AI opponent.
+8. **TicTacToe**: A classic Tic Tac Toe two player game.
 
 9. **twitterClone**: A clone of the Twitter interface, showcasing a feed and user interactions.
 
