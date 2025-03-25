@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PokeDesk</title>
+  </head>
+  <body>
+    <h1>Pokémon Search App</h1>
+    <form id="search-form">
+      <label for="search-input">Search for Pokémon Name or ID:</label>
+      <input type="text" name="search-input" id="search-input" required />
+      <button type="submit" id="search-button">Search</button>
+    </form>
+    <div class="card">
+      <div class="display">
+        <div class="name">
+          <div id="pokemon-name"></div>
+          <div id="pokemon-id"></div>
+        </div>
+        <div id="sprite-container"></div>
+        <div class="bottom">
+          <div class="h-w">
+            <div id="weight"></div>
+        <div id="height"></div>
+          </div>
+        <div id="types"></div>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <th>Base</th>
+          <th>Stats</th>
+        </tr>
+        <tr>
+          <td>HP</td>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <td>Attack</td>
+          <td id="attack"></td>
+        </tr>
+        <tr>
+          <td>Defense</td>
+          <td id="defense"></td>
+        </tr>
+        <tr>
+          <td>Special Attack</td>
+          <td id="special-attack"></td>
+        </tr>
+        <tr>
+          <td>Special Defense</td>
+          <td id="special-defense"></td>
+        </tr>
+        <tr>
+          <td>Speed</td>
+          <td id="speed"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

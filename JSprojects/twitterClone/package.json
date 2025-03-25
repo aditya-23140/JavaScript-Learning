@@ -1,0 +1,16 @@
+{
+  "name": "twitterclone",
+  "version": "1.0.0",
+  "description": "npm init -y\r npm install tailwindcss postcss autoprefixer postcss-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./CSS/input.css -o ./CSS/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

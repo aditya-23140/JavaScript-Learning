@@ -1,0 +1,96 @@
+*{
+  margin: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background: linear-gradient(45deg, #cd61ff, #e565ff, #f1aeff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#note{
+  width: 50vw;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 0 8px 16px rgba(240, 175, 255, 0.571);
+  background: linear-gradient(45deg, #ff3636, #ee0000, #fc8a8a);
+  padding: 16px;
+}
+#note:hover{
+  cursor: context-menu;
+}
+
+.container{
+  width: 50vw;
+  height: 50vh;
+  min-width: 350px;
+  text-align: center;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 8px 16px rgba(240, 175, 255, 0.571);
+  background: linear-gradient(45deg, #c336ff, #e200ee, #d88afc);
+  padding: 10px;
+  transition: 1s linear;
+}
+
+.container:hover{
+  background: linear-gradient(45deg, #9036ff, #7300ee, #a58afc);
+}
+
+#resultContainer{
+  padding: 40px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#resultContainer input{
+  width: 60%;
+  min-width: 300px;
+  height: 24px;
+  font-weight: 550;
+  border: none;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 8px;
+  transition: 0.2s linear;
+}
+
+#resultContainer input:hover{
+  box-shadow: 0 0 4px 10px rgba(172, 74, 179, 0.208);
+}
+
+#resultContainer input:focus{
+  outline: none;
+  box-shadow: 0 0 4px 10px rgba(151, 56, 158, 0.208);
+}
+
+#resultContainer button{
+  width: 25%;
+  min-width: 100px;
+  height: 10%;
+  border: none;
+  font-size: 18px;
+  font-weight: 550;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+  background: linear-gradient(45deg, #ff3636, #ee0000, #ff6f6f);
+  transition: 0.2s linear;
+}
+
+#resultContainer button:hover{
+  cursor: pointer;
+  background: linear-gradient(45deg, #36d7ff, #00acee, #8acffc);
+  box-shadow: 0 0 4px 6px rgba(172, 74, 179, 0.208);
+}
